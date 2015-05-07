@@ -1,0 +1,277 @@
+2015-05-06 09:51:34 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/momo/www/test/app/Config/routes.php, line 33]
+2015-05-06 09:51:34 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /government?q=%2Fgovernment
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/momo/www/...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/momo/www/...', 33, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/momo/www/...', 33, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-06 09:51:47 Error: [MissingViewException] View file "Pages/5.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/5.ctp',
+)
+Request URL: /government?q=%2Fgovernment
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/View/View.php(470): View->_getViewFileName('5')
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(960): View->render('5', NULL)
+#2 /home/momo/www/test/app/Controller/PagesController.php(68): Controller->render('5')
+#3 [internal function]: PagesController->display(5)
+#4 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-06 09:54:36 Error: [MissingViewException] View file "Pages/show.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/show.ctp',
+)
+Request URL: /pages/show?q=%2Fpages%2Fshow
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/View/View.php(470): View->_getViewFileName('show')
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(960): View->render('show', NULL)
+#2 /home/momo/www/test/app/Controller/PagesController.php(68): Controller->render('show')
+#3 [internal function]: PagesController->display('show')
+#4 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-06 09:57:00 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/momo/www/test/app/View/Pages/show.ctp, line 3]
+2015-05-06 09:57:00 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /pages/show?q=%2Fpages%2Fshow
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/momo/www/...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/momo/www/...', 3, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/momo/www/...', 3, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-06 10:50:43 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/momo/www/test/app/Controller/PostsController.php, line 7]
+2015-05-06 10:50:43 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/momo/www/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/momo/www/...', 7, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/momo/www/...', 7, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-06 10:57:04 Error: Fatal Error (1): Call to a member function link() on a non-object in [/home/momo/www/test/app/View/Posts/index.ctp, line 13]
+2015-05-06 10:57:04 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/momo/www/...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/momo/www/...', 13, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/momo/www/...', 13, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-06 11:12:02 Error: [MissingViewException] View file "Posts/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/add.ctp',
+)
+Request URL: /posts/add?q=%2Fposts%2Fadd
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 11:12:31 Error: [NotFoundException] Post not found
+Request URL: /posts/view/6?q=%2Fposts%2Fview%2F6
+Stack Trace:
+#0 [internal function]: PostsController->view('6')
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 11:25:03 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/momo/www/test/app/Controller/PostsController.php, line 24]
+2015-05-06 11:25:03 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/momo/www/...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/momo/www/...', 24, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/momo/www/...', 24, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-06 11:50:07 Error: [NotFoundException] Id not found
+Request URL: /posts/edit?q=%2Fposts%2Fedit
+Stack Trace:
+#0 [internal function]: PostsController->edit()
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 12:00:43 Error: Fatal Error (1): Unsupported operand types in [/home/momo/www/test/app/View/Posts/edit.ctp, line 9]
+2015-05-06 12:00:43 Error: [FatalErrorException] Unsupported operand types
+Request URL: /posts/edit/1?q=%2Fposts%2Fedit%2F1
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/home/momo/www/...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/home/momo/www/...', 9, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/home/momo/www/...', 9, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-06 12:21:18 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /posts/delete/8?q=%2Fposts%2Fdelete%2F8
+Stack Trace:
+#0 [internal function]: PostsController->delete('8')
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 12:22:58 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /posts/delete/6?q=%2Fposts%2Fdelete%2F6
+Stack Trace:
+#0 [internal function]: PostsController->delete('6')
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 12:23:32 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /posts/delete/6?q=%2Fposts%2Fdelete%2F6
+Stack Trace:
+#0 [internal function]: PostsController->delete('6')
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 12:23:44 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /posts/delete/8?q=%2Fposts%2Fdelete%2F8
+Stack Trace:
+#0 [internal function]: PostsController->delete('8')
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 12:24:44 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /posts/delete/8?q=%2Fposts%2Fdelete%2F8
+Stack Trace:
+#0 [internal function]: PostsController->delete('8')
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 15:00:30 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /home/momo/www/test/app/Config/bootstrap.php(115): CakePlugin::load('DebugKit')
+#1 /home/momo/www/test/lib/Cake/Core/Configure.php(92): include('/home/momo/www/...')
+#2 /home/momo/www/test/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /home/momo/www/test/app/webroot/index.php(100): include('/home/momo/www/...')
+#4 {main}
+2015-05-06 15:01:46 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 15:05:47 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 15:05:51 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /home/momo/www/test/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 15:11:15 Error: Fatal Error (1): Class 'Cake\Controller\Component' not found in [/home/momo/www/test/app/Plugin/DebugKit/Controller/Component/ToolbarComponent.php, line 25]
+2015-05-06 15:11:15 Error: [FatalErrorException] Class 'Cake\Controller\Component' not found
+Request URL: /
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Cake\Con...', '/home/momo/www/...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Cake\Con...', '/home/momo/www/...', 25, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Cake\Con...', '/home/momo/www/...', 25, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-06 15:25:51 Error: [MissingControllerException] Controller class DatasController could not be found.
+Exception Attributes: array (
+  'class' => 'DatasController',
+  'plugin' => NULL,
+)
+Request URL: /datas/?q=%2Fdatas%2F
+Stack Trace:
+#0 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-06 15:32:35 Error: Fatal Error (64): Cannot redeclare class File in [/home/momo/www/test/app/Model/Data.php, line 0]
+2015-05-06 15:32:35 Error: [FatalErrorException] Cannot redeclare class File
+Request URL: /datas/?q=%2Fdatas%2F
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/momo/www/...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/momo/www/...', 0, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/momo/www/...', 0, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-06 15:32:49 Error: [MissingTableException] Table data for model Data was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'data',
+  'class' => 'Data',
+  'ds' => 'default',
+)
+Request URL: /datas/?q=%2Fdatas%2F
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Model/Model.php(3644): Model->setSource('data')
+#1 /home/momo/www/test/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /home/momo/www/test/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /home/momo/www/test/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Data', 'fields')
+#4 /home/momo/www/test/app/View/Datas/index.ctp(3): FormHelper->create('Data')
+#5 /home/momo/www/test/lib/Cake/View/View.php(961): include('/home/momo/www/...')
+#6 /home/momo/www/test/lib/Cake/View/View.php(923): View->_evaluate('/home/momo/www/...', Array)
+#7 /home/momo/www/test/lib/Cake/View/View.php(473): View->_render('/home/momo/www/...')
+#8 /home/momo/www/test/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#9 /home/momo/www/test/app/Controller/DatasController.php(7): Controller->render()
+#10 [internal function]: DatasController->index()
+#11 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DatasController), Array)
+#12 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DatasController), Object(CakeRequest))
+#14 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-05-06 17:55:59 Error: Fatal Error (4): syntax error, unexpected '?>', expecting ')' in [/home/momo/www/test/app/View/Datas/index.ctp, line 55]
+2015-05-06 17:55:59 Error: [FatalErrorException] syntax error, unexpected '?>', expecting ')'
+Request URL: /datas/?q=%2Fdatas%2F
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/momo/www/...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/momo/www/...', 55, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/momo/www/...', 55, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
