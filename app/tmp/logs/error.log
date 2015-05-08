@@ -275,3 +275,115 @@ Stack Trace:
 #3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-05-08 09:49:27 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/momo/www/test/app/Controller/UsersController.php, line 14]
+2015-05-08 09:49:27 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /users?q=%2Fusers
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/momo/www/...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/momo/www/...', 14, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/momo/www/...', 14, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 09:49:43 Error: Fatal Error (1): Call to a member function convert() on a non-object in [/home/momo/www/test/app/Controller/UsersController.php, line 14]
+2015-05-08 09:49:43 Error: [FatalErrorException] Call to a member function convert() on a non-object
+Request URL: /users?q=%2Fusers
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/momo/www/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/momo/www/...', 14, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/momo/www/...', 14, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 09:49:44 Error: Fatal Error (1): Call to a member function convert() on a non-object in [/home/momo/www/test/app/Controller/UsersController.php, line 14]
+2015-05-08 09:49:44 Error: [FatalErrorException] Call to a member function convert() on a non-object
+Request URL: /users?q=%2Fusers
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/momo/www/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/momo/www/...', 14, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/momo/www/...', 14, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 14:54:28 Error: [SocketException] 
+Request URL: /users?q=%2Fusers
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('you@example.com', 'About', 'My message??', 'From: My Site <...', NULL)
+#1 /home/momo/www/test/lib/Cake/Network/Email/CakeEmail.php(1161): MailTransport->send(Object(CakeEmail))
+#2 /home/momo/www/test/app/Controller/UsersController.php(21): CakeEmail->send('My message')
+#3 [internal function]: UsersController->index()
+#4 /home/momo/www/test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-08 14:55:11 Error: [SocketException] 
+Request URL: /users?q=%2Fusers
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('you@example.com', 'About', 'My message??', 'From: My Site <...', NULL)
+#1 /home/momo/www/test/lib/Cake/Network/Email/CakeEmail.php(1161): MailTransport->send(Object(CakeEmail))
+#2 /home/momo/www/test/app/View/Users/index.ctp(27): CakeEmail->send('My message')
+#3 /home/momo/www/test/lib/Cake/View/View.php(961): include('/home/momo/www/...')
+#4 /home/momo/www/test/lib/Cake/View/View.php(923): View->_evaluate('/home/momo/www/...', Array)
+#5 /home/momo/www/test/lib/Cake/View/View.php(473): View->_render('/home/momo/www/...')
+#6 /home/momo/www/test/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /home/momo/www/test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-08 15:39:03 Error: Fatal Error (1): Class 'Folder' not found in [/home/momo/www/test/app/Controller/UsersController.php, line 15]
+2015-05-08 15:39:03 Error: [FatalErrorException] Class 'Folder' not found
+Request URL: /users?q=%2Fusers
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Folder' ...', '/home/momo/www/...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Folder' ...', '/home/momo/www/...', 15, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Folder' ...', '/home/momo/www/...', 15, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 16:32:09 Error: Fatal Error (1): Class 'Folder' not found in [/home/momo/www/test/app/Controller/UsersController.php, line 15]
+2015-05-08 16:32:09 Error: [FatalErrorException] Class 'Folder' not found
+Request URL: /users?q=%2Fusers
+Stack Trace:
+#0 /home/momo/www/test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Folder' ...', '/home/momo/www/...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Folder' ...', '/home/momo/www/...', 15, Array)
+#2 /home/momo/www/test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Folder' ...', '/home/momo/www/...', 15, Array)
+#3 /home/momo/www/test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 16:33:08 Error: [MissingControllerException] Controller class XjsController could not be found.
+Exception Attributes: array (
+  'class' => 'XjsController',
+  'plugin' => NULL,
+)
+Request URL: /xjs/_/js/k=xjs.hp.en_US.Z_n0yf5R2do.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oG4R9oHnCGu0Jkt6NT5PJb178AHdQ?q=%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.hp.en_US.Z_n0yf5R2do.O%2Fm%3Dsb_he%2Cd%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DACT90oG4R9oHnCGu0Jkt6NT5PJb178AHdQ
+Stack Trace:
+#0 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 16:34:25 Error: [MissingControllerException] Controller class XjsController could not be found.
+Exception Attributes: array (
+  'class' => 'XjsController',
+  'plugin' => NULL,
+)
+Request URL: /xjs/_/js/k=xjs.hp.en_US.Z_n0yf5R2do.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oG4R9oHnCGu0Jkt6NT5PJb178AHdQ?q=%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.hp.en_US.Z_n0yf5R2do.O%2Fm%3Dsb_he%2Cd%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DACT90oG4R9oHnCGu0Jkt6NT5PJb178AHdQ
+Stack Trace:
+#0 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 16:54:46 Error: [MissingControllerException] Controller class SearchController could not be found.
+Exception Attributes: array (
+  'class' => 'SearchController',
+  'plugin' => NULL,
+)
+Request URL: /search?q=cakephp+vs+laravel&ie=UTF-8&revid=752584402&sa=X&ei=IINMVcaHJZOWuAStsYHoBA&ved=0CFAQ1QIoAw
+Stack Trace:
+#0 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 16:54:47 Error: [MissingControllerException] Controller class SearchController could not be found.
+Exception Attributes: array (
+  'class' => 'SearchController',
+  'plugin' => NULL,
+)
+Request URL: /search?q=cakephp+vs+zend&ie=UTF-8&revid=752584402&sa=X&ei=IINMVcaHJZOWuAStsYHoBA&ved=0CFMQ1QIoBg
+Stack Trace:
+#0 /home/momo/www/test/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
